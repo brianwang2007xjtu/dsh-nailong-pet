@@ -84,7 +84,7 @@
 
 ## 安装
 
-与两个内置自制插件一致，通过 `dsh plugin` 链接本地（或 Git）仓库，然后在 profile 的 `cordis.patch.yml` 里挂一行。
+通过 `dsh plugin` 链接本地（或 Git）仓库，然后在 profile 的 `cordis.patch.yml` 里挂一行。
 
 ### 1. 添加到插件注册表
 
