@@ -1,0 +1,38 @@
+{
+  "name": "dsh-nailong-pet",
+  "version": "0.1.0",
+  "description": "奶龙桌宠 for the DeepSeek Harness: an animated desktop pet in the web UI that reacts to the agent's live working state and speaks when a task completes.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "assets/sprite.webp",
+    "assets/voice.mp3",
+    "assets/pet.js",
+    "README.md",
+    "LICENSE",
+    "screenshots/"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "desktop-pet",
+    "nailong",
+    "奶龙",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": true },
+    "@deepseek-ai/schemastery": { "optional": true }
+  }
+}
